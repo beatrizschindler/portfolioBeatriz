@@ -1,26 +1,18 @@
 ---
-title: "Bem vinda(o)! Welcome!"
+title: "Welcome to Portfolio de Beatriz"
 description: |
-  Seja bem vinda(o) ao meu portfólio. Aqui reuno algumas conduções de análises que fiz, geralmente com dados abertos. Espero que seja uma leitura prazerosa!
+  Welcome to our new blog, Portfolio de Beatriz. We hope you enjoy 
+  reading what we have to say!
 author:
-  - name: Beatriz Schindler 
-    url: www.linkedin.com/in/beatriz-schindler/
-    affiliation: UFBA
-    affiliation_url: 
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
 date: 01-28-2022
 output:
   distill::distill_article:
     self_contained: false
 ---
-
-Tenho interesse em análise, visualização e modelagem de dados. 
-
-Atualmente estou aprendendo sobre balanceamento de dados para machine learning. 
-
-Estou sempre em busca de colaboração em novos projetos. 
-
-Qualquer contato para sugestões, esclarecimento de dúvidas e troca de conhecimento será bem-vindo. 
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

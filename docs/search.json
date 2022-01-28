@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-28T12:00:04-03:00"
+      "last_modified": "2022-01-28T15:26:02-03:00"
     },
     {
       "path": "index.html",
-      "title": "Portfolio Beatriz",
+      "title": "Portfolio de Beatriz",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-28T12:00:05-03:00"
+      "last_modified": "2022-01-28T15:26:03-03:00"
     }
   ],
   "collections": ["posts/posts.json"]

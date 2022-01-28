@@ -1,7 +1,7 @@
 name: "."
-title: "Portfolio Beatriz"
+title: "Portfolio de Beatriz"
 description: |
-  Portfolio Beatriz
+  Portfolio de Beatriz
 output_dir: "docs"
 navbar:
   right:
