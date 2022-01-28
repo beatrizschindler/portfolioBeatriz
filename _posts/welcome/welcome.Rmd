@@ -1,13 +1,12 @@
 ---
-title: "Welcome to Portfolio de Beatriz"
+title: "Bem vinda(o)! Welcome!"
 description: |
-  Welcome to our new blog, Portfolio de Beatriz. We hope you enjoy 
-  reading what we have to say!
+  Seja bem vinda(o) ao meu portfólio. Aqui reuno alguns resumos de análises que conduzi, principalmente usando dados abertos. Espero que seja uma leitura prazerosa!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Beatriz Schindler  
+    url: https://www.linkedin.com/in/beatriz-schindler/
+    affiliation: UFBA
+    affiliation_url: 
 date: 01-28-2022
 output:
   distill::distill_article:

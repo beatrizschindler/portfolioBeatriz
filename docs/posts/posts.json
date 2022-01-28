@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Portfolio de Beatriz",
-    "description": "Welcome to our new blog, Portfolio de Beatriz. We hope you enjoy \nreading what we have to say!",
+    "title": "Bem vinda(o)! Welcome!",
+    "description": "Seja bem vinda(o) ao meu portfólio. Aqui reuno alguns resumos de análises que conduzi, principalmente usando dados abertos. Espero que seja uma leitura prazerosa!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Beatriz Schindler",
+        "url": "https://www.linkedin.com/in/beatriz-schindler/"
       }
     ],
     "date": "2022-01-28",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-28T15:25:59-03:00",
-    "input_file": {}
+    "last_modified": "2022-01-28T15:49:39-03:00",
+    "input_file": "welcome.knit.md"
   }
 ]
