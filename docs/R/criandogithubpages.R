@@ -1,0 +1,6 @@
+usethis::create_package("portfolioBeatriz")
+#usethis::use_git_config(user.name = "beatrizschindler", user.email = "beapschindler@gmail.com")
+#usethis::create_github_token()
+#gitcreds::gitcreds_set()
+usethis::use_git()
+usethis::use_github()

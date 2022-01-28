@@ -1,0 +1,34 @@
+---
+title: "Bem vinda(o)! Welcome!"
+description: |
+  Seja bem vinda(o) ao meu portfólio. Aqui reuno algumas conduções de análises que fiz, geralmente com dados abertos. Espero que seja uma leitura prazerosa!
+author:
+  - name: Beatriz Schindler 
+    url: www.linkedin.com/in/beatriz-schindler/
+    affiliation: UFBA
+    affiliation_url: 
+date: 01-28-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Tenho interesse em análise, visualização e modelagem de dados. 
+
+Atualmente estou aprendendo sobre balanceamento de dados para machine learning. 
+
+Estou sempre em busca de colaboração em novos projetos. 
+
+Qualquer contato para sugestões, esclarecimento de dúvidas e troca de conhecimento será bem-vindo. 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
