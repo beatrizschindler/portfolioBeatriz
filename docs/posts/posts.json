@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2022-01-28T15:49:39-03:00",
     "input_file": "welcome.knit.md"
+  },
+  {
+    "path": "posts/2022-01-28-visualizao-de-dados/",
+    "title": "Visualização de dados",
+    "description": "Neste post (em andamento) reuno algumas visualizações desenvolvidas para descrever dados simples.",
+    "author": [
+      {
+        "name": "Beatriz Schindler",
+        "url": "https://www.linkedin.com/in/beatriz-schindler/"
+      }
+    ],
+    "date": "2022-01-28",
+    "categories": [],
+    "contents": "\r\nDurante algumas consultorias prestadas, recebi com frequencia a pergunta “o que fazer para substituir os gráficos de pizza do meu trabalho?”\r\nAqui estão algumas soluções que encontrei para esta substituição e para descrever uma característica sem levar em conta sua relação com outros fatores.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-01-28-visualizao-de-dados/visualizao-de-dados_files/figure-html5/unnamed-chunk-2-1.png",
+    "last_modified": "2022-01-31T09:52:59-03:00",
+    "input_file": "visualizao-de-dados.knit.md"
   }
 ]
