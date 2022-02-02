@@ -28,12 +28,35 @@ library(tibble)
 ```
 
 ```{r}
-mtcars <- rownames_to_column(mtcars, "Tipo")
-mutate(mtcars, Tipo = fct_reorder(Tipo, mpg)) %>% 
-ggplot(aes(x=Tipo, y=mpg)) +
-  geom_segment( aes(x=Tipo, xend=Tipo, y=0, yend=mpg), color="darkslategray") +
+mtcars <- rownames_to_column(mtcars, "Type")
+mutate(mtcars, Type = fct_reorder(Type, mpg)) %>% 
+ggplot(aes(x=Type, y=mpg)) +
+  geom_segment( aes(x=Type, xend=Type, y=0, yend=mpg), color="darkslategray") +
   geom_point(color="deepskyblue4", size=4) +
   coord_flip() +
-  theme_minimal() 
+  theme_classic() 
+```
+
+Por este gráfico, por exemplo, podemos observar o rendimento de cada tipo de carro (em milhas por galão - mpg). 
+
+Conseguimos exibir o *ranking* de uma forma fácil de perceber e rapidamente nota-se que o Toyota Corolla alcança o maior rendimento, enquanto o Cadillac Fleetwood junto ao Lincoln Continental, têm o pior rendimento. 
+
+Neste gráfico, ainda, caso haja interesse no rendimento de algum carro em específico, podemos destacar esta informação:
+
+```{r}
+annot <- data.frame(
+   x = c("Lotus Europa","Honda Civic"),
+   y = c(30.4,30.4),
+   label = c("30.4", "30.4")
+)
+
+mutate(mtcars, Type = fct_reorder(Type, mpg)) %>% 
+ggplot(aes(x=Type, y=mpg)) +
+  geom_segment( aes(x=Type, xend=Type, y=0, yend=mpg), color=ifelse(mtcars$Type %in% c("Lotus Europa","Honda Civic"), "orange", "darkslategray"), size=ifelse(mtcars$Type %in% c("Lotus Europa","Honda Civic"), 1, 0.5)) +
+  geom_point(color=ifelse(mtcars$Type %in% c("Lotus Europa","Honda Civic"), "orange", "deepskyblue4"), size=ifelse(mtcars$Type %in% c("Lotus Europa","Honda Civic"), 4.5, 3.3)) + 
+  geom_text(data = annot, aes(x=x, y=y + 2, label=label), color = "orange", size = 3.3) +
+  coord_flip() +
+  theme_classic() 
+
 ```
 
